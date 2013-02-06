@@ -1,4 +1,0 @@
-CAM
-===
-
-Cloud Accesibilty Measurement
