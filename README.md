@@ -1,7 +1,7 @@
 This project is used to measure the accessibilty of various data centers with 
-respect to the users located in various geographical regions. The code contains
-a file called "start.py" which connects to a central data storage server to get
-a list of data centers to connect to. It then pings each data center accordingly
+respect to the users located in various geographical regions. This code contains
+a python file called "start.py" which connects to a central data storage server to
+get a list of data centers to connect to. It then pings each data center accordingly
 to start measuring the network Characteristics from the client to the data center
 
 The tools used for measuring the network characteristics are
@@ -18,6 +18,7 @@ Please refer to the respective web pages for each tools for more information
 
 This script runs only on Linux machines and currently has executables for i386 architecture
 The credit for individual tools used strictly goes to the respective authors as mentioned
+in their respective websites
 
 For more infromation, contact me at "gumdelli@cs.montana.edu"
 

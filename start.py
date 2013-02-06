@@ -50,13 +50,6 @@ END_CAPTURE = 23456
     
     
 #method that does the file transfer over listener process
-def get_file(s, file_name):
-
-
-    print get_file(s, 'file1')
-    print get_file(s, 'file2')
-    s.sendall('end\n')
-
 def uploadFiles(folder,dcip,PORT,filetype):
     os.chdir(folder)
     dirList = os.listdir(folder)
@@ -143,7 +136,7 @@ def multiQ(port,dcip,sock):
     #download files
     #send download initiation packet
 #    sock.send(str(START_CAPTURE))#send download START packet
-    downloadFiles('127.0.0.1')#change to dcip
+    downloadFiles('54.241.35.209')#change to dcip
 #    sock.send(str(START_CAPTURE))#send download end packet    
     #then upload the files to the server using listener process
     #send upload initiation packet
@@ -191,7 +184,7 @@ def getInfo(host,port):
 ######################      main program starts here     #####################
 ##############################################################################
 def main():
-    host_db = "dknight.eps.montana.edu"#ip or address of the database server
+    host_db = "54.241.35.209"#ip or address of the database server
     port_db = 33235#port of the database server
     port_dc = 33456
     details = getInfo(host_db,port_db)#contact database server
@@ -206,7 +199,7 @@ def main():
     client_socket.sendto(FREE,(host_db,port_db)) #dbserver, change to TCP
     #connect to the datacenter before sendto # changed to TCP!!
     uploadFiles(str(os.getcwd()),'54.241.35.209','36250','36252','.txt')#server address, upload file to the server
-    uploadFiles('/home/gumdelli/testdownload/184.169.155.37/download','127.0.0.1','36250','.bin')#server address, upload file to the server
+    
     
 if  __name__ =='__main__':
     main()
