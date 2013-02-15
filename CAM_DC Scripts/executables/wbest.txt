@@ -1,0 +1,26 @@
+hostname: 54.241.9.109
+Looking up TCP server 54.241.9.109...
+TCP connected to 54.241.9.109:9878
+Looking up UDP 54.241.9.109...
+UDP connected to 54.241.9.109:1234
+The timer resolution is 56 usecs.
+The gettimeofday resolution is 1 usecs.
+Ce = 20.717967
+PacketTrain: sending 30 PT with 563.761879 us per packet, at 20.717967 Mbps
+Real sending rate: 20.558554 Mbps, time spend: 17044.000000 us, average packet time 568.133333 us
+Ab = 19.120117
+Total estimation time: 484405 usec.
+WBest sender is now off
+hostname: 54.241.9.109
+Looking up TCP server 54.241.9.109...
+TCP connected to 54.241.9.109:9878
+Looking up UDP 54.241.9.109...
+UDP connected to 54.241.9.109:1234
+The timer resolution is 56 usecs.
+The gettimeofday resolution is 1 usecs.
+Ce = 40.259474
+PacketTrain: sending 30 PT with 290.118048 us per packet, at 40.259474 Mbps
+Real sending rate: 34.158705 Mbps, time spend: 10258.000000 us, average packet time 341.933333 us
+Ab = 21.848250
+Total estimation time: 480828 usec.
+WBest sender is now off

@@ -1,6 +1,0 @@
-The experiment is as follows:
-
-Has three nodes namely Client, Data Center and Server.
-	The Client is the experiment initiator, it connects to the data center and gets various network measurements and sends the data to Server.
-
-	The main aim of the server is to keep a track of all the measurements in process and also keeps a track of ports being used and the clients that are currently connected to the various data centers

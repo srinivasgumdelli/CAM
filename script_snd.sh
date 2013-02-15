@@ -1,1 +1,0 @@
-./executables/assolo_snd
